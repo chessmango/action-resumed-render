@@ -1,0 +1,28 @@
+name: resumed Render Action
+author: chessmango
+description: GitHub Action to render JSON Résumé
+branding:
+  icon: list
+  color: purple
+inputs:
+  theme:
+    description: |
+      JSON Résumé theme to use, for example `jsonresume-theme-even`.
+      This is installed from NPM - themes can be found at https://npmsearch.com/?q=jsonresume-theme
+    required: true
+    default: jsonresume-theme-even
+  input_file:
+    description: Path to your JSON Résumé file
+    required: true
+    default: resume.json
+  output_file:
+    description: Path to your desired output HTML file
+    required: true
+    default: resume.html
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.theme }}
+    - ${{ inputs.input_file }}
+    - ${{ inputs.output_file }}
