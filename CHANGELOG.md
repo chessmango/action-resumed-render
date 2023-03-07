@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/chessmango/action-resumed-render/compare/v1.0.2...v1.0.3) (2023-03-07)
+
+
+### Bug Fixes
+
+* npm install theme globally ([#8](https://github.com/chessmango/action-resumed-render/issues/8)) ([c5ba411](https://github.com/chessmango/action-resumed-render/commit/c5ba41195ad332eb417612327b4411a9ef327b2d))
+
 ## [1.0.2](https://github.com/chessmango/action-resumed-render/compare/v1.0.1...v1.0.2) (2023-03-07)
 
 
