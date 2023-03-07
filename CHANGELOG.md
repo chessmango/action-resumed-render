@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/chessmango/action-resumed-render/compare/v1.0.1...v1.0.2) (2023-03-07)
+
+
+### Bug Fixes
+
+* chmod entrypoint.sh 775 ([#6](https://github.com/chessmango/action-resumed-render/issues/6)) ([45d9d1a](https://github.com/chessmango/action-resumed-render/commit/45d9d1aa6d631e730a1d88125d50a535a2aa420b))
+
 ## [1.0.1](https://github.com/chessmango/action-resumed-render/compare/v1.0.0...v1.0.1) (2023-03-07)
 
 
