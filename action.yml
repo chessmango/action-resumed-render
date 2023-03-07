@@ -1,6 +1,6 @@
-name: resumed Export Action
+name: resumed Render Action
 author: chessmango
-description: GitHub Action to export JSON Résumé
+description: GitHub Action to render JSON Résumé
 branding:
   icon: list
   color: purple
