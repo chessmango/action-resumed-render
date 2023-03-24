@@ -1,0 +1,26 @@
+name: test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+      - name: Test action
+        uses: "{{env.GITHUB_REPOSITORY}}@${{env.GITHUB_HEAD_REF}}"
+        with:
+          theme: jsonresume-theme-even
+          input_file: resume.json
+          output_file: resume.html
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume.html
+          path: resume.html
