@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.5.0
         with:
           fetch-depth: 1
       - name: Test Docker build
@@ -22,7 +22,7 @@ jobs:
           input_file: resume.json
           output_file: resume.html
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: resume.html
           path: resume.html
