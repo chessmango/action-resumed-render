@@ -1,4 +1,4 @@
-FROM docker.io/node:18.17.0-alpine3.17
+FROM docker.io/node:18.17.1-alpine3.17
 
 COPY app/* /
 
