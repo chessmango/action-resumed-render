@@ -22,7 +22,7 @@ jobs:
           input_file: resume.json
           output_file: resume.html
       - name: Upload artifact
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: resume.html
           path: resume.html
