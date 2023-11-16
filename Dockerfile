@@ -1,4 +1,4 @@
-FROM docker.io/library/node:20.9.0-alpine@sha256:705d2e9a4f2474d07152e32fc8950b561d1497970b2cb940598ef33937f6e519
+FROM docker.io/library/node:20.9.0-alpine@sha256:6cfd13114b39f5d9459f5bdff1ef1c3149c3871535ee33bd15a153b8c16e0d99
 
 COPY app/* /
 
