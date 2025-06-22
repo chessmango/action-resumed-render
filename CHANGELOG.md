@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/chessmango/action-resumed-render/compare/v1.1.1...v1.1.2) (2025-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency resumed to v6 ([08f8aa6](https://github.com/chessmango/action-resumed-render/commit/08f8aa659509c3a71b7328c2c64e641703ab8c90))
+
 ## [1.0.3](https://github.com/chessmango/action-resumed-render/compare/v1.0.2...v1.0.3) (2023-03-07)
 
 
